@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'python -m pytest test_practice.py --html=result.html'
+        bat 'python -m pytest test_practice.py'
       }
     }
   }
