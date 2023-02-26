@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'py -m pip install'
+        bat 'curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py'
       }
     }
   }
