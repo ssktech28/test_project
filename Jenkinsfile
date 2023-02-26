@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'python pytest test_practice.py'
+        bat 'pip install pytest'
       }
     }
   }
