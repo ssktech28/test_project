@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'python get-pip.py'
+        bat 'pip --version'
       }
     }
   }
