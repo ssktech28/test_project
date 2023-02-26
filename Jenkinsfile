@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'python -m pytest test_practice.py'
+        bat 'python -m pytest --alluredir=allure-report/ test_practice.py'
       }
     }
   }
