@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test_practice') {
       steps {
-        bat 'pip --version'
+        bat 'python -m pip install -U pip'
       }
     }
   }
