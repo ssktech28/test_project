@@ -8,4 +8,4 @@ def test_first_test():
     
     
 def test_second_test():
-    assert 1==1
+    assert 1==2
